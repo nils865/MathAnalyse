@@ -82,18 +82,6 @@ function toNumArr(arr) {
     return newArr;
 }
 
-function calcDash(arr) {
-    let dash = "";
-
-    // creates a dashed line double the length of the array + 6
-    for(let i = 0; i < ((arr.length * 2) + 6); i++) {
-        dash += "-";
-    }
-
-    // returns the dashed line as a string
-    return dash;
-}
-
 function quartil(arr, type) {
     let startNum;
     let endNum;
@@ -163,7 +151,7 @@ function output(lines) {
 
             str = `<div class="outputBorder">
                 <p class="noMP">Array: ${line}</p>
-                <p class="noMP">${calcDash(line)}</p>
+                <p class="dash"></p>
                 <p class="noMP">Min: ${min(line)}</p>
                 <p class="noMP">Max: ${max(line)}</p>
                 <p class="noMP">Median: ${median(line)}</p>

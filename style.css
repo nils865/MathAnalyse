@@ -88,3 +88,13 @@ p {
 .header h1 {
     font-size: 4em;
 }
+
+.dash {
+    width: 100% - 0.25em;
+    height: 0;
+    border-style: solid;
+    border-color: #6DAEDB;
+    margin: 0 0.125em;
+    padding: 0;
+    border-width: 0.5px;
+}
