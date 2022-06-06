@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datenanalyse</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+    <body>
+        <div class="contents">
+            <div class="header noMP">
+                <h1 class="noMP">Datenanalyse</h1>
+            </div>
+            <div class="selector">
+                <h3 class="selectorheader">
+                    Wählen sie eine Datei aus:
+                </h3>
+                <input type="file" class="fileloader noMP" id="fileloader" onchange="analyze(this)">
+            </div>
+            <div class="linebreak space"></div>
+            <div class="output" id="output"></div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

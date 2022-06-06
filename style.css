@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body {
+    background-color: #011120;
+    color: #6DAEDB;
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+
+.contents {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.selectorheader {
+    text-align: center;
+    padding: 0 0.5em 0 0;
+    margin: 0;
+}
+
+.fileloader {
+    align-self: center;
+    font-family: 'Teko', sans-serif;
+    width: 13em;
+}
+
+.selector {
+    width: 100%;
+    height: auto;
+    
+    margin: 0.5em 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.linebreak {
+    width: 100%;
+    height: 0;
+}
+
+.noMP {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+input {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.outputBorder {
+    border-style: solid;
+    border-color: #6DAEDB;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.space {
+    height: 1em;
+}
+
+.output {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 4em;
+}
